@@ -174,18 +174,18 @@
     <version id="V3_03" num="3.03" supported="false">Dark Age of Camelot</version>
     <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander</version>
     <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
-    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force</version>
-    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}</version>
-    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot</version>
+    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds</version>
+    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, Tetris Worlds</version>
+    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003</version>
     <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
-    <version id="V4_2_1_0" num="4.2.1.0">Dark Age of Camelot, Civilization IV</version>
+    <version id="V4_2_1_0" num="4.2.1.0">Dark Age of Camelot, Civilization IV, Knight Rider</version>
     <version id="V4_2_2_0" num="4.2.2.0">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II</version>
     <version id="V10_0_1_0" num="10.0.1.0">{{Zoo Tycoon 2}}, Civilization IV, Oblivion</version>
     <version id="V10_0_1_2" num="10.0.1.2" bsver="1 3">Oblivion</version>
     <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam</version>
     <version id="V10_1_0_101" num="10.1.0.101" user="10" bsver="4">Oblivion</version>
     <version id="V10_1_0_106" num="10.1.0.106" user="10" bsver="5">Oblivion</version>
-    <version id="V10_2_0_0" num="10.2.0.0" user="0">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki</version>
+    <version id="V10_2_0_0" num="10.2.0.0" user="0">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu</version>
     <version id="V10_2_0_0__1" num="10.2.0.0" user="1">{{Blood Bowl}}</version>
     <version id="V10_2_0_0__10" num="10.2.0.0" user="10" bsver="6 7 8 9">Oblivion</version>
     <version id="V10_2_0_1" num="10.2.0.1" custom="true">WorldShift</version>
@@ -217,19 +217,19 @@
     <version id="V20_3_0_2" num="20.3.0.2">Emerge</version>
     <version id="V20_3_0_3" num="20.3.0.3">Emerge</version>
     <version id="V20_3_0_6" num="20.3.0.6">Emerge</version>
-    <version id="V20_3_0_9" num="20.3.0.9" user="0 0x10000" ext="nft item cat">{{Bully SE}}, {{LEGO Universe}}, Warhammer, Lazeska, Howling Sword, Ragnarok Online 2, Divinity 2 (0x10000), Digimon Masters Online</version>
+    <version id="V20_3_0_9" num="20.3.0.9" user="0 0x10000" ext="nft item cat">{{Bully SE}}, {{LEGO Universe}}, Warhammer, Lazeska, Howling Sword, Ragnarok Online 2, Divinity 2 (0x10000), Digimon Masters Online, Ski Doo Snowmobile Challenge, Way of the Samurai 3</version>
     <version id="V20_3_0_9_DIV2" num="20.3.0.9" user="0x20000 0x30000" ext="item cat">{{Divinity 2}}</version>
     <version id ="V20_3_1_1" num="20.3.1.1">Fantasy Frontier, Aura Kingdom</version>
     <version id ="V20_3_1_2" num="20.3.1.2">{{Fantasy Frontier}}, {{Aura Kingdom}}</version>
     <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain</version>
-    <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2</version>
+    <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai</version>
     <version id="V20_6_0_2" num="20.6.0.2">{{MXM}}</version>
     <version id="V20_6_5_0" num="20.6.5.0" user="0" supported="false">Epic Mickey</version>
     <version id="V20_6_5_0_DEM" num="20.6.5.0" user="14 15" ext="nif_wii" >Epic Mickey</version>
     <version id="V20_6_5_0_DEM2" num="20.6.5.0" user="17">Epic Mickey 2</version>
     <version id="V30_0_0_2" num="30.0.0.2">Emerge</version>
     <version id="V30_1_0_1" num="30.1.0.1">Emerge</version>
-    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014</version>
+    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014, Way of the Samurai 4, Gladiator VS</version>
     <version id="V30_2_0_3" num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2</version>
 
     <!-- BSMain = 0x1fff384d000 -->
@@ -2860,7 +2860,7 @@
         <field name="Angular Damping" type="float" default="0.05">Reduces the movement of the body over time. A value of 0.05 will remove 5% of the angular velocity every second.</field>
         <field name="Time Factor" type="float" default="1.0" />
         <field name="Gravity Factor" type="float" default="1.0" />
-        <field name="Friction" type="float" default="0.5">How smooth its surfaces is and how easily it will slide along other bodies.</field>
+        <field name="Friction" type="float" default="0.5">How smooth its surfaces are and how easily it will slide along other bodies.</field>
         <field name="Rolling Friction Multiplier" type="float" />
         <field name="Restitution" type="float" default="0.4">
             How "bouncy" the body is, i.e. how much energy it has after colliding. Less than 1.0 loses energy, greater than 1.0 gains energy.
@@ -2898,7 +2898,7 @@
         <field name="Linear Damping" type="float" default="0.1">Reduces the movement of the body over time. A value of 0.1 will remove 10% of the linear velocity every second.</field>
         <field name="Angular Damping" type="float" default="0.05">Reduces the movement of the body over time. A value of 0.05 will remove 5% of the angular velocity every second.</field>
         <field name="Gravity Factor" type="float" default="1.0"/>
-        <field name="Friction" type="float" default="0.5">How smooth its surfaces is and how easily it will slide along other bodies.</field>
+        <field name="Friction" type="float" default="0.5">How smooth its surfaces are and how easily it will slide along other bodies.</field>
         <field name="Rolling Friction Multiplier" type="float" />
         <field name="Restitution" type="float" default="0.4">
             How "bouncy" the body is, i.e. how much energy it has after colliding. Less than 1.0 loses energy, greater than 1.0 gains energy.
@@ -3617,6 +3617,7 @@
 
     <niobject name="NiMultiTargetTransformController" inherit="NiInterpController" module="NiAnimation">
         DEPRECATED (20.6)
+	A time controller object for animation key frames that targets multiple objects.
         <field name="Num Extra Targets" type="ushort">The number of target pointers that follow.</field>
         <field name="Extra Targets" type="Ptr" template="NiAVObject" length="Num Extra Targets">NiNode Targets to be controlled.</field>
     </niobject>
@@ -3936,7 +3937,7 @@
     </niobject>
 
     <niobject name="BSFurnitureMarker" inherit="NiExtraData" module="BSMain" versions="#BETHESDA#">
-        Unknown. Marks furniture sitting positions?
+        Bethesda-specific ExtraData. Marks positions actors snap to when using furniture.
         <field name="Num Positions" type="uint" />
         <field name="Positions" type="FurniturePosition" length="Num Positions" />
     </niobject>
@@ -4398,7 +4399,7 @@
     </niobject>
 
     <niobject name="AvoidNode" inherit="NiNode" module="BSLegacy" versions="V4_0_0_2">
-        Morrowind specific.
+        Morrowind specific. Makes actors avoid entering areas contained within.
     </niobject>
 
     <niobject name="FxWidget" inherit="NiNode" module="NiCustom" versions="V10_0_1_0">
@@ -4661,6 +4662,7 @@
     </niobject>
 
     <niobject name="NiPersistentSrcTextureRendererData" inherit="NiPixelFormat" module="NiMain">
+	Describes the specifications for textures so platform specific APIs don't need to convert them at runtime.
         <field name="Palette" type="Ref" template="NiPalette" />
         <field name="Num Mipmaps" type="uint" />
         <field name="Bytes Per Pixel" type="uint" />
@@ -5138,14 +5140,14 @@
     </niobject>
 
     <niobject name="NiSpotLight" inherit="NiPointLight" module="NiMain">
-        A spot.
+        A spotlight.
         <field name="Outer Spot Angle" type="float" range="#F_DEG#" />
         <field name="Inner Spot Angle" type="float" range="#F_DEG#" since="20.2.0.5" />
         <field name="Exponent" type="float" default="1.0">Describes the distribution of light.</field>
     </niobject>
 
     <niobject name="NiStencilProperty" inherit="NiProperty" module="NiMain">
-        Allows control of stencil testing.
+        Allows control of stencil testing and disabling of backface culling.
         <field name="Flags" type="ushort" until="10.0.1.2">Property flags.</field>
         <field name="Stencil Enabled" type="byte" until="20.0.0.5">Enables or disables the stencil test.</field>
         <field name="Stencil Function" type="StencilTestFunc" until="20.0.0.5">Selects the compare mode function.</field>
@@ -5290,7 +5292,7 @@
     </niobject>
 
     <niobject name="NiTriStrips" inherit="NiTriBasedGeom" module="NiMain">
-        A shape node that refers to data organized into strips of triangles
+        A shape node that refers to data organized into strips of triangles.
     </niobject>
 
     <niobject name="NiTriStripsData" inherit="NiTriBasedGeomData" module="NiMain">
@@ -5303,7 +5305,7 @@
     </niobject>
 
     <niobject name="NiEnvMappedTriShape" inherit="NiObjectNET" module="NiLegacy" until="V10_0_1_0">
-        Unknown
+        Unknown.
         <field name="Unknown 1" type="ushort" />
         <field name="Unknown Matrix" type="Matrix44" />
         <field name="Num Children" type="uint">The number of child objects.</field>
@@ -5318,7 +5320,7 @@
 
     <niobject name="NiBezierTriangle4" inherit="NiObject" module="NiLegacy" until="V10_0_1_0">
         LEGACY (pre-10.1)
-        Sub data of NiBezierMesh
+        Sub data of NiBezierMesh.
         <field name="Unknown 1" type="uint" length="6" />
         <field name="Unknown 2" type="ushort" />
         <field name="Matrix" type="Matrix33" />
@@ -5332,7 +5334,7 @@
 
     <niobject name="NiBezierMesh" inherit="NiAVObject" module="NiLegacy" until="V10_0_1_0">
         LEGACY (pre-10.1)
-        Unknown
+        Unknown.
         <field name="Num Bezier Triangles" type="uint" />
         <field name="Bezier Triangle" type="Ref" template="NiBezierTriangle4" length="Num Bezier Triangles" />
         <field name="Unknown 3" type="uint" />
@@ -5370,6 +5372,10 @@
     <niobject name="NiClodSkinInstance" inherit="NiSkinInstance" module="NiLegacy" until="V4_0_0_2">
         A copy of NiSkinInstance for use with NiClod meshes.
         Found in: Freedom Force, Spellbinder
+    </niobject>
+
+    <niobject name="CsNiNode" abstract="0" inherit="NiNode">
+        Root node for Digimon Masters map files.
     </niobject>
 
     <niobject name="NiUVController" inherit="NiTimeController" module="NiAnimation" until="V20_2_0_8">
@@ -5641,7 +5647,7 @@
     </niobject>
 
     <niobject name="NiPhysXProp" inherit="NiObjectNET" module="NiPhysX" since="V20_2_0_8">
-        A PhysX prop which holds information about PhysX actors in a Gamebryo scene
+        A PhysX prop which holds information about PhysX actors in a Gamebryo scene.
         <field name="PhysX to World Scale" type="float" default="1.0" />
         <field name="Num Sources" type="uint" />
         <field name="Sources" type="Ref" template="NiPhysXSrc" length="Num Sources" />
@@ -5866,7 +5872,7 @@
     </struct>
 
     <niobject name="NiPhysXShapeDesc" inherit="NiObject" module="NiPhysX" since="V20_2_0_8">
-        For serializing NxShapeDesc objects
+        For serializing NxShapeDesc objects.
         <field name="Shape Type" type="NxShapeType" />
         <field name="Local Pose" type="Matrix34" />
         <field name="Flags" type="NxShapeFlag" default="0x120008" />
@@ -6133,7 +6139,7 @@
     </niobject>
 
     <enum name="BSShaderType" storage="uint" versions="#FO3#">
-        FO3 Shader Type
+        FO3 Shader Type.
         <option value="0" name="SHADER_TALL_GRASS">Tall Grass Shader</option>
         <option value="1" name="SHADER_DEFAULT">Standard Lighting Shader</option>
         <option value="10" name="SHADER_SKY">Sky Shader</option>
@@ -6149,19 +6155,19 @@
         Shader Property Flags
         <option bit="0" name="Specular">Enables Specularity</option>
         <option bit="1" name="Skinned">Required For Skinned Meshes</option>
-        <option bit="2" name="LowDetail">Lowddetail (seems to use standard diff/norm/spec shader)</option>
+        <option bit="2" name="LowDetail">Low detail (seems to use standard diff/norm/spec shader)</option>
         <option bit="3" name="Vertex_Alpha">Vertex Alpha</option>
-        <option bit="4" name="Unknown_1">Unknown</option>
+        <option bit="4" name="Unknown_1">Motion Blur (appears to be some engine flag used in Oblivion)</option>
         <option bit="5" name="Single_Pass">Single Pass</option>
-        <option bit="6" name="Empty">Unknown</option>
+        <option bit="6" name="Empty">Enables the Falloff settings on BSShaderNoLightingProperty</option>
         <option bit="7" name="Environment_Mapping">Environment mapping (uses Envmap Scale)</option>
         <option bit="8" name="Alpha_Texture">Alpha Texture Requires NiAlphaProperty to Enable</option>
-        <option bit="9" name="Unknown_2">Unknown</option>
+        <option bit="9" name="Unknown_2">Enables ZPrepass (seems to be set automatically by the engine)</option>
         <option bit="10" name="FaceGen">FaceGen</option>
         <option bit="11" name="Parallax_Shader_Index_15">Parallax</option>
-        <option bit="12" name="Unknown_3">Unknown/Crash</option>
-        <option bit="13" name="Non_Projective_Shadows">Non-Projective Shadows</option>
-        <option bit="14" name="Unknown_4">Unknown/Crash</option>
+        <option bit="12" name="Unknown_3">Used to mark model space normals (unknown if it works)</option>
+        <option bit="13" name="Non_Projective_Shadows">Non-Projective Shadows (unused)</option>
+        <option bit="14" name="Unknown_4">Enables landscape texturing (likely engine only)</option>
         <option bit="15" name="Refraction">Refraction (switches on refraction power)</option>
         <option bit="16" name="Fire_Refraction">Fire Refraction (switches on refraction power/period)</option>
         <option bit="17" name="Eye_Environment_Mapping">Eye Environment Mapping (does not use envmap light fade or envmap scale)</option>
@@ -6189,7 +6195,7 @@
         <option bit="3" name="No_Fade">No Fade</option>
         <option bit="4" name="Refraction_Tint">Refraction Tint</option>
         <option bit="5" name="Vertex_Colors">Has Vertex Colors</option>
-        <option bit="6" name="Unknown1">Unknown</option>
+        <option bit="6" name="Unknown1">Marks objects as being in 1st person (set by the engine)</option>
         <option bit="7" name="First_Light_is_Point_Light">1st Light is Point Light</option>
         <option bit="8" name="Second_Light">2nd Light</option>
         <option bit="9" name="Third_Light">3rd Light</option>
@@ -6231,8 +6237,8 @@
     </niobject>
 
     <niobject name="BSShaderNoLightingProperty" inherit="BSShaderLightingProperty" module="BSMain" versions="#FO3#">
-        Bethesda-specific property.
-        <field name="File Name" type="SizedString">The texture glow map.</field>
+        Bethesda-specific property. Lighting is constant and is not affected by lights from the environment.
+        <field name="File Name" type="SizedString">The texture.</field>
         <field name="Falloff Start Angle" type="float" default="1.0" range="#F_NRM#" vercond="#BSVER# #GT# 26">At this cosine of angle falloff will be equal to Falloff Start Opacity</field>
         <field name="Falloff Stop Angle" type="float" default="0.0" range="#F_NRM#" vercond="#BSVER# #GT# 26">At this cosine of angle falloff will be equal to Falloff Stop Opacity</field>
         <field name="Falloff Start Opacity" type="float" default="1.0" range="#F0_1#" vercond="#BSVER# #GT# 26">Alpha falloff multiplier at start angle</field>
@@ -6308,7 +6314,7 @@
         Bethesda-specific Texture Set.
         <field name="Num Textures" type="uint" default="6" />
         <field name="Textures" type="SizedString" length="Num Textures">Textures.
-            0: Diffuse
+            0: Diffuse/Alpha
             1: Normal/Gloss
             2: Glow(SLSF2_Glow_Map)/Skin/Hair/Rim light(SLSF2_Rim_Lighting)
             3: Height/Parallax
@@ -6320,7 +6326,7 @@
     </niobject>
 
     <niobject name="WaterShaderProperty" inherit="BSShaderProperty" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-specific property. Found in Fallout3
+        Bethesda-specific property. Found in Fallout 3 and New Vegas.
     </niobject>
 
     <enum name="SkyObjectType" storage="uint" versions="#BETHESDA#">
@@ -6333,13 +6339,13 @@
         <option value="7" name="BSSM_SKY_MOON_STARS_MASK">BSSM_Sky_Moon_Stars_Mask</option>
     </enum>
     <niobject name="SkyShaderProperty" inherit="BSShaderLightingProperty" module="BSMain" versions="#BETHESDA#">
-        Bethesda-specific property. Found in Fallout3
+        Bethesda-specific property. Found in Fallout 3 and New Vegas.
         <field name="File Name" type="SizedString">The texture.</field>
         <field name="Sky Object Type" type="SkyObjectType">Sky Object Type</field>
     </niobject>
 
     <niobject name="TileShaderProperty" inherit="BSShaderLightingProperty" module="BSMain" versions="#FO3#">
-        Bethesda-specific property.
+        Bethesda-specific property. Used for UI elements in Fallout 3 and New Vegas.
         <field name="File Name" type="SizedString">Texture file name</field>
     </niobject>
 
@@ -6352,7 +6358,7 @@
     </niobject>
 
     <niobject name="TallGrassShaderProperty" inherit="BSShaderProperty" module="BSMain" versions="#BETHESDA#">
-        Bethesda-specific property.
+        Bethesda-specific property. Used for grass meshes.
         <field name="File Name" type="SizedString">Texture file name</field>
     </niobject>
 
@@ -6365,7 +6371,7 @@
     </niobject>
 
     <niobject name="Lighting30ShaderProperty" inherit="BSShaderPPLightingProperty" module="BSMain" versions="#BETHESDA#">
-        Bethesda-specific property.
+        Bethesda-specific property. Nearly identical to BSShaderPPLightingProperty but supports more lights.
     </niobject>
 
     <bitflags name="SkyrimShaderPropertyFlags1" storage="uint" prefix="SLSF1" versions="#SKY# #SSE#">
@@ -6720,7 +6726,7 @@
     </niobject>
 
     <niobject name="BSDismemberSkinInstance" inherit="NiSkinInstance" module="BSMain" versions="#BETHESDA#">
-        Bethesda-specific skin instance.
+        Bethesda-specific skin instance. Stores partition information on where to cut meshes when dismembered.
         <field name="Num Partitions" type="uint" default="1" />
         <field name="Partitions" type="BodyPartList" length="Num Partitions" />
     </niobject>
@@ -6751,7 +6757,7 @@
     </bitflags>
 
     <niobject name="BSValueNode" inherit="NiNode" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-specific node. Found on fxFire effects
+        Bethesda-specific node. Defines the index value for AddOnNode forms in plugins to be attached to the mesh.
         <field name="Value" type="uint" />
         <field name="Value Node Flags" type="BSValueNodeFlags" />
     </niobject>
@@ -6778,7 +6784,7 @@
 
 
     <niobject name="BSMaterialEmittanceMultController" inherit="NiFloatInterpController" module="BSAnimation" versions="#FO3#">
-        Bethesda-Specific time controller.
+        Bethesda-Specific time controller. Animates the Emissive Mult value on NiMaterialProperties.
     </niobject>
 
 
@@ -6800,35 +6806,36 @@
 
 
     <niobject name="BSRefractionStrengthController" inherit="NiFloatInterpController" module="BSAnimation" versions="#FO3#">
-        Bethesda-Specific time controller.
+        Bethesda-Specific time controller. Animates the RefractionStrength value on Bethesda shader properties.
     </niobject>
 
 
     <niobject name="BSOrderedNode" inherit="NiNode" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-Specific node.
-        <field name="Alpha Sort Bound" type="Vector4" />
+        Bethesda-Specific node. Adjusts the alpha bound of objects parented to it.
+        <field name="Alpha Sort Bound" type="NiBound" />
         <field name="Static Bound" type="bool" default="true" />
     </niobject>
 
 
     <niobject name="BSRangeNode" inherit="NiNode" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-Specific node.
+        Bethesda-Specific node. Defines a range of Destruction Stages and activates when a reference reaches one of the defined values.
         <field name="Min" type="byte" />
         <field name="Max" type="byte" />
         <field name="Current" type="byte" />
     </niobject>
 
     <niobject name="BSBlastNode" inherit="BSRangeNode" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-Specific node.
+        Bethesda-Specific node. Marks where an explosion is placed when a reference reaches a defined Damage Stage range.
+	Without a BSBlastNode, the explosion is instead placed on a random vertex.
     </niobject>
 
     <niobject name="BSDamageStage" inherit="BSBlastNode" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-Specific node.
+        Bethesda-Specific node. Defines a range of Destruction Stages and activates when a reference reaches one of the defined values.
     </niobject>
 
 
     <niobject name="BSRefractionFirePeriodController" inherit="NiTimeController" module="BSAnimation" versions="#FO3#">
-        Bethesda-specific time controller.
+        Bethesda-specific time controller. Animates the RefractionFirePeriod of a Bethesda shader property.
         <field name="Interpolator" type="Ref" template="NiInterpolator" />
     </niobject>
 
@@ -6892,6 +6899,7 @@
 
     <niobject name="bhkLiquidAction" inherit="bhkAction" module="BSHavok" versions="#FO3_AND_LATER#">
         Bethesda custom bhkUnaryAction. Does not hold a link to the body like other bhkUnaryActions however.
+	Causes collision objects to stick to FOL_STATIC and FOL_TERRAIN layer types.
         <field name="Unused 01" type="byte" length="12" binary="true" />
         <field name="Initial Stick Force" type="float" default="25.0" />
         <field name="Stick Strength" type="float" default="100.0" />
@@ -7002,7 +7010,7 @@
     </niobject>
 
     <niobject name="BSPackedAdditionalGeometryData" inherit="AbstractAdditionalGeometryData" module="BSMain" versions="#BETHESDA#">
-        No longer appears to occur in any vanilla files. Older versions of FNV had the block in nvdlc01vaultposter01.nif.
+        Bethesda-specific geometry data. Used in console versions of Bethesda titles.
         <field name="Num Vertices" type="ushort" />
         <field name="Num Block Infos" type="uint" />
         <field name="Block Infos" type="NiAGDDataStream" length="Num Block Infos" />
@@ -7017,11 +7025,11 @@
     </niobject>
 
     <niobject name="BSFrustumFOVController" inherit="NiFloatInterpController" module="BSAnimation" versions="#BETHESDA#">
-        Bethesda-specific time controller.
+        Bethesda-specific time controller. Used to animate the frustum value on NiCameras.
     </niobject>
 
     <niobject name="BSDebrisNode" inherit="BSRangeNode" module="BSMain" versions="#FO3_AND_LATER#">
-        Bethesda-Specific node.
+        Bethesda-Specific node. Marks where debris spawns when a reference reaches a defined Damage Stage.
     </niobject>
 
     <niobject name="bhkBreakableConstraint" inherit="bhkConstraint" module="BSHavok" versions="#BETHESDA#">
@@ -7053,13 +7061,13 @@
     </niobject>
 
     <niobject name="bhkRagdollTemplate" inherit="NiExtraData" module="BSHavok" versions="#FO3_AND_LATER#">
-        Found in Fallout 3, more ragdoll info?  (meshes\ragdollconstraint\*.rdt)
+        Found in Fallout 3, intended to make armors use unique rigid body information but doesn't work.
         <field name="Num Bones" type="uint" />
         <field name="Bones" type="Ref" template="NiObject" length="Num Bones" />
     </niobject>
 
     <niobject name="bhkRagdollTemplateData" inherit="NiObject" module="BSHavok" versions="#FO3_AND_LATER#">
-        Data for bhkRagdollTemplate
+        Data for bhkRagdollTemplate.
         <field name="Name" type="NiFixedString" />
         <field name="Mass" type="float" default="9.0" />
         <field name="Restitution" type="float" default="0.8" />
