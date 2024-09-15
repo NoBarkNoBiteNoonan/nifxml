@@ -2396,11 +2396,11 @@
         <!-- Fallout 3 and later, Havok 660 and 2010 -->
         <field name="Twist A" type="Vector4" vercond="!#NI_BS_LTE_16#">Central directed axis of the cone in which the object can rotate. Orthogonal on Plane A.</field>
         <field name="Plane A" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal plane in which the body can move, the orthogonal directions in which the shape can be controlled (the direction orthogonal on this one and Twist A).</field>
-        <field name="Motor A" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal directions in which the shape can be controlled (namely in this direction, and in the direction orthogonal on this one and Twist A).</field>
+        <field name="Twist X Plane A" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal directions in which the shape can be controlled (namely in this direction, and in the direction orthogonal on this one and Twist A).</field>
         <field name="Pivot A" type="Vector4" vercond="!#NI_BS_LTE_16#">Point around which the object will rotate. Defines the orthogonal directions in which the shape can be controlled (namely in this direction, and in the direction orthogonal on this one and Twist A).</field>
         <field name="Twist B" type="Vector4" vercond="!#NI_BS_LTE_16#">Central directed axis of the cone in which the object can rotate. Orthogonal on Plane B.</field>
         <field name="Plane B" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal plane in which the body can move, the orthogonal directions in which the shape can be controlled (the direction orthogonal on this one and Twist A).</field>
-        <field name="Motor B" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal directions in which the shape can be controlled (namely in this direction, and in the direction orthogonal on this one and Twist A).</field>
+        <field name="Twist X Plane B" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal directions in which the shape can be controlled (namely in this direction, and in the direction orthogonal on this one and Twist A).</field>
         <field name="Pivot B" type="Vector4" vercond="!#NI_BS_LTE_16#">Defines the orthogonal directions in which the shape can be controlled (namely in this direction, and in the direction orthogonal on this one and Twist A).</field>
 
         <field name="Cone Max Angle" type="float">Maximum angle the object can rotate around the vector orthogonal on Plane A and Twist A relative to the Twist A vector. Note that Cone Min Angle is not stored, but is simply minus this angle.</field>
