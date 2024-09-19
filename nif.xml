@@ -3097,11 +3097,11 @@
         a non-static object (such as clutter), then they will simply fall
         through ground when they are under a bhkListShape.
         <field name="Vertices Property" type="bhkWorldObjCInfoProperty" />
-        <field name="Normals Property" type="bhkWorldObjCInfoProperty" />
+        <field name="Parameters Property" type="bhkWorldObjCInfoProperty" />
         <field name="Num Vertices" type="uint">Number of vertices.</field>
         <field name="Vertices" type="Vector4" length="Num Vertices">Vertices. Fourth component is 0. Lexicographically sorted.</field>
-        <field name="Num Normals" type="uint">The number of half spaces.</field>
-        <field name="Normals" type="Vector4" length="Num Normals">Half spaces as determined by the set of vertices above. First three components define the normal pointing to the exterior, fourth component is the signed distance of the separating plane to the origin: it is minus the dot product of v and n, where v is any vertex on the separating plane, and n is the normal. Lexicographically sorted.</field>
+        <field name="Num Plane Params" type="uint">The number of half spaces.</field>
+        <field name="Plane Parameters" type="Vector4" length="Num Plane Params">Half spaces as determined by the set of vertices above. First three components define the parameter pointing to the exterior, fourth component is the signed distance of the separating plane to the origin: it is minus the dot product of v and n, where v is any vertex on the separating plane, and n is the parameter. Lexicographically sorted.</field>
     </niobject>
 
     <niobject name="bhkConvexTransformShape" inherit="bhkConvexShapeBase" module="BSHavok" versions="#BETHESDA#">
