@@ -2663,6 +2663,12 @@
         <field name="Malleable" type="bhkMalleableConstraintCInfo" cond="Type == 13" />
     </struct>
 
+    <struct name="AccumArrayItem" module="NiAnimation">
+        <field name="Last Value" type="NiQuatTransform" />
+        <field name="Delta Value" type="NiQuatTransform" />
+        <field name="Ref Frame" type="Matrix33" />
+    </struct>
+
     <!-- NIF Objects
          These are the main units of data that NIF files are arranged in.
          They are like C classes and can contain many pieces of data.
@@ -4074,6 +4080,11 @@
     <niobject name="NiBlendBoolInterpolator" inherit="NiBlendInterpolator" module="NiAnimation">
         Blends bool values together.
         <field name="Value" type="byte" default="2">The pose value. Invalid if using data.</field>
+    </niobject>
+
+    <niobject name="NiBlendAccumTransformInterpolator" inherit="NiBlendInterpolator">
+        <field name="Accum Array Items" type="AccumArrayItem" arr1="Array Size" />
+        <field name="Accumulated Transform Value" type="NiQuatTransform"/>
     </niobject>
 
     <niobject name="NiBlendFloatInterpolator" inherit="NiBlendInterpolator" module="NiAnimation">
@@ -8568,4 +8579,26 @@
 		<field name="Controller Seq List" type="Ref" template="NiControllerSequence" length="Num Controller Seq List" />
 	</niobject>
 
+       <!-- Internal Bethesda objects that sometimes get exported with ripping tools -->
+
+	<niobject name="BSFaceGenBaseMorphExtraData" abstract="0" inherit="NiExtraData">
+    	</niobject> 
+    
+	<niobject name="BSFaceGenModelExtraData" abstract="0" inherit="NiExtraData">
+    	</niobject>
+
+    	<niobject name="bhkBlendCollisionObjectAddRotation" abstract="0" inherit="bhkBlendCollisionObject">
+    	</niobject>
+    
+    	<niobject name="WeaponObject" abstract="0" inherit="bhkBlendCollisionObject">
+    	</niobject>
+
+	<niobject name="BSFaceGenNiNode" abstract="0" inherit="NiNode">
+    	</niobject>
+
+    	<niobject name="BSMultiTargetTreadTransfController" inherit="NiInterpController">
+    	</niobject>
+
+	<niobject name="BSAnimGroupSequence" inherit="NiControllerSequence">
+	</niobject>
 </niftoolsxml>
