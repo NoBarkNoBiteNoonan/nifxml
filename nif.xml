@@ -1038,16 +1038,17 @@
 
     <enum name="BillboardMode" storage="ushort">
         Determines the way the billboard will react to the camera.
-        Billboard mode is stored in lowest 3 bits although Oblivion vanilla nifs uses values higher than 7.
+        Billboard mode is stored in lowest 3 bits, bit 8 is a mask that tells Gamebryo to update attached controllers.
+	In Bethesda titles, this is always set at runtime and modes 9 and 10 are in actuality ROTATE_ABOUT_UP and RIGID_FACE_CAMERA respectively. Other titles may behave the same.
         <option value="0" name="ALWAYS_FACE_CAMERA">Align billboard and camera forward vector. Minimized rotation.</option>
         <option value="1" name="ROTATE_ABOUT_UP">Align billboard and camera forward vector while allowing rotation around the up axis.</option>
         <option value="2" name="RIGID_FACE_CAMERA">Align billboard and camera forward vector. Non-minimized rotation.</option>
-        <option value="3" name="ALWAYS_FACE_CENTER">Billboard forward vector always faces camera ceneter. Minimized rotation.</option>
-        <option value="4" name="RIGID_FACE_CENTER">Billboard forward vector always faces camera ceneter. Non-minimized rotation.</option>
+        <option value="3" name="ALWAYS_FACE_CENTER">Billboard forward vector always faces camera center. Minimized rotation.</option>
+        <option value="4" name="RIGID_FACE_CENTER">Billboard forward vector always faces camera center. Non-minimized rotation.</option>
         <option value="5" name="BSROTATE_ABOUT_UP">The billboard will only rotate around its local Z axis (it always stays in its local X-Y plane).</option>
-        <option value="9" name="ROTATE_ABOUT_UP2">The billboard will only rotate around the up axis (same as ROTATE_ABOUT_UP?).</option>
+        <option value="9" name="ROTATE_ABOUT_UP_UPDATE_CONTROLLERS">The billboard will only rotate around the up axis..</option>
         <option value="8" name="UNKNOWN_8">Found in Civ IV Gravebringer and Gravebringer_FX</option>
-        <option value="10" name="UNKNOWN_10">Found in FO3 dlc04lighthouselightmech01</option>
+        <option value="10" name="RIGID_FACE_CAMERA_UPDATE_CONTROLLERS">Align billboard and camera forward vector. Non-minimized rotation.</option>
         <option value="11" name="UNKNOWN_11">Found in Civ IV Afterworld_Boss_FX</option>
         <option value="12" name="UNKNOWN_12">Found in IRIS Online etc.</option>
     </enum>
