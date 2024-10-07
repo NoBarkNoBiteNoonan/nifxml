@@ -175,7 +175,8 @@
     <version id="V2_3" num="2.3" supported="false">Dark Age of Camelot</version>
     <version id="V3_0" num="3.0" supported="false">Star Trek: Bridge Commander</version>
     <version id="V3_03" num="3.03" supported="false">Dark Age of Camelot</version>
-    <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander</version>
+    <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander, Tetris Worlds</version>
+    <version id="V3_3_0_13" num="3.3.0.11" supported="false">Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
     <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider</version>
     <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, Tetris Worlds, Futurama</version>
@@ -210,7 +211,7 @@
     <version id="V20_2_0_7__11_6" num="20.2.0.7" user="11" bsver="26">Fallout 3, Fallout NV</version>
     <version id="V20_2_0_7__11_7" num="20.2.0.7" user="11" bsver="27 28">Fallout 3, Fallout NV</version>
     <version id="V20_2_0_7__11_8" num="20.2.0.7" user="11" bsver="30 31 32 33">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7_FO3" num="20.2.0.7" user="11" bsver="34" ext="rdt">{{Fallout 3}}, {{Fallout NV}}</version>
+    <version id="V20_2_0_7_FO3" num="20.2.0.7" user="11" bsver="34" ext="rdt psa">{{Fallout 3}}, {{Fallout NV}}</version>
     <version id="V20_2_0_7_SKY" num="20.2.0.7" user="12" bsver="83" ext="bto btr">{{Skyrim}}</version>
     <version id="V20_2_0_7_SSE" num="20.2.0.7" user="12" bsver="100" ext="bto btr">{{Skyrim SE}}</version>
     <version id="V20_2_0_7_FO4" num="20.2.0.7" user="12" bsver="130" ext="bto btr">{{Fallout 4}}</version>
