@@ -177,22 +177,24 @@
     <version id="V3_03" num="3.03" supported="false">Dark Age of Camelot</version>
     <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander</version>
     <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
-    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds</version>
-    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, Tetris Worlds</version>
-    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003</version>
+    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider</version>
+    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, Tetris Worlds, Futurama</version>
+    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003, Knight Rider</version>
+    <version id="V4_1_0_13" num="4.1.0.13">Futurama</version>
     <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
-    <version id="V4_2_1_0" num="4.2.1.0">Dark Age of Camelot, Civilization IV, Knight Rider</version>
+    <version id="V4_2_1_0" num="4.2.1.0" ext="ucf opt">Dark Age of Camelot, Civilization IV, Knight Rider, Futurama</version>
     <version id="V4_2_2_0" num="4.2.2.0">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II</version>
-    <version id="V10_0_1_0" num="10.0.1.0">{{Zoo Tycoon 2}}, Civilization IV, Oblivion</version>
+    <version id="V10_0_1_0" num="10.0.1.0">{{Zoo Tycoon 2}}, Civilization IV, Oblivion, IHRA Drag Racing Sportsman Edition</version>
     <version id="V10_0_1_2" num="10.0.1.2" bsver="1 3">Oblivion</version>
-    <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam</version>
+    <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam, Stacked with Daniel Negreanu, Ski-Doo Snowmobile Challenge</version>
     <version id="V10_1_0_101" num="10.1.0.101" user="10" bsver="4">Oblivion</version>
     <version id="V10_1_0_106" num="10.1.0.106" user="10" bsver="5">Oblivion</version>
-    <version id="V10_2_0_0" num="10.2.0.0" user="0" ext="wtf blb">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu</version>
+    <version id="V10_2_0_0" num="10.2.0.0" user="0" ext="wtf blb">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu, Ski-Doo Snowmobile Challenge</version>
     <version id="V10_2_0_0__1" num="10.2.0.0" user="1">{{Blood Bowl}}</version>
     <version id="V10_2_0_0__10" num="10.2.0.0" user="10" bsver="6 7 8 9 11">Oblivion</version>
     <version id="V10_2_0_1" num="10.2.0.1" custom="true">WorldShift</version>
     <version id="V10_3_0_1" num="10.3.0.1" custom="true">WorldShift</version>
+    <version id="V10_3_0_7" num="10.3.0.7" custom="true">Ski-Doo Snowmobile Challenge</version>
     <version id="V10_4_0_1" num="10.4.0.1" custom="true">{{WorldShift}}</version>
     <version id="V20_0_0_4" num="20.0.0.4" user="0">{{Civilization IV}}, {{Sid Meier's Railroads}}, Florensia, Ragnarok Online 2, IRIS Online</version>
     <version id="V20_0_0_4__10" num="20.0.0.4" user="10" bsver="11">{{Oblivion KF}}, Oblivion</version>
@@ -215,23 +217,23 @@
     <version id="V20_2_0_7_FO4_2" num="20.2.0.7" user="12" bsver="132 139" ext="bto btr" supported="false">Fallout 4 (LS_Mirelurk.nif, Screen.nif)</version>
     <version id="V20_2_0_7_F76" num="20.2.0.7" user="12" bsver="155" ext="bto">{{Fallout 76}}</version>
     <version id="V20_2_0_7_STF" num="20.2.0.7" user="12" bsver="172">{{Starfield}}</version>
-    <version id="V20_2_0_8" num="20.2.0.8" ext="nifcache">{{Empire Earth III}}, {{FFT Online}}, Atlantica Online, IRIS Online, Wizard101</version>
+    <version id="V20_2_0_8" num="20.2.0.8" ext="nifcache mpk">{{Empire Earth III}}, {{FFT Online}}, Atlantica Online, IRIS Online, Wizard101, Lego Universe Way of the Samurai 3</version>
     <version id="V20_2_4_7" num="20.2.4.7">QQSpeed</version>
     <version id="V20_3_0_1" num="20.3.0.1">Emerge</version>
     <version id="V20_3_0_2" num="20.3.0.2">Emerge</version>
     <version id="V20_3_0_3" num="20.3.0.3">Emerge</version>
     <version id="V20_3_0_6" num="20.3.0.6">Emerge</version>
-    <version id="V20_3_0_9" num="20.3.0.9" user="0 0x10000" ext="nft item cat etk">{{Bully SE}}, {{LEGO Universe}}, Warhammer, Lazeska, Howling Sword, Ragnarok Online 2, Divinity 2 (0x10000), Digimon Masters Online, Ski Doo Snowmobile Challenge, Way of the Samurai 3</version>
+    <version id="V20_3_0_9" num="20.3.0.9" user="0 0x10000" ext="nft item cat etk mpk cst svn-base">{{Bully SE}}, {{LEGO Universe}}, Warhammer, Lazeska, Howling Sword, Ragnarok Online 2, Divinity 2 (0x10000), Digimon Masters Online, Ski Doo Snowmobile Challenge, Way of the Samurai 3, Gladiator VS</version>
     <version id="V20_3_0_9_DIV2" num="20.3.0.9" user="0x20000 0x30000" ext="item cat">{{Divinity 2}}</version>
     <version id ="V20_3_1_1" num="20.3.1.1">Fantasy Frontier, Aura Kingdom</version>
     <version id ="V20_3_1_2" num="20.3.1.2">{{Fantasy Frontier}}, {{Aura Kingdom}}</version>
-    <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain</version>
+    <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain, El Shaddai</version>
     <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai</version>
     <version id="V20_6_0_2" num="20.6.0.2">{{MXM}}</version>
     <version id="V20_6_5_0" num="20.6.5.0" user="0" supported="false">Epic Mickey</version>
     <version id="V20_6_5_0_DEM" num="20.6.5.0" user="14 15" ext="nif_wii" >Epic Mickey</version>
     <version id="V20_6_5_0_DEM2" num="20.6.5.0" user="17">Epic Mickey 2</version>
-    <version id="V30_0_0_2" num="30.0.0.2">Emerge</version>
+    <version id="V30_0_0_2" num="30.0.0.2" ext="mpk">Emerge, Gladiator VS</version>
     <version id="V30_1_0_1" num="30.1.0.1">Emerge</version>
     <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014, Way of the Samurai 4, Gladiator VS</version>
     <version id="V30_2_0_3" num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2</version>
