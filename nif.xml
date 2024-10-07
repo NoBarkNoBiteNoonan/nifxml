@@ -188,7 +188,7 @@
     <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam</version>
     <version id="V10_1_0_101" num="10.1.0.101" user="10" bsver="4">Oblivion</version>
     <version id="V10_1_0_106" num="10.1.0.106" user="10" bsver="5">Oblivion</version>
-    <version id="V10_2_0_0" num="10.2.0.0" user="0">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu</version>
+    <version id="V10_2_0_0" num="10.2.0.0" user="0" ext="wtf blb">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu</version>
     <version id="V10_2_0_0__1" num="10.2.0.0" user="1">{{Blood Bowl}}</version>
     <version id="V10_2_0_0__10" num="10.2.0.0" user="10" bsver="6 7 8 9 11">Oblivion</version>
     <version id="V10_2_0_1" num="10.2.0.1" custom="true">WorldShift</version>
