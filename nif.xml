@@ -6762,7 +6762,7 @@
         <field name="Partitions" type="BodyPartList" length="Num Partitions" />
     </niobject>
 
-    <niobject name="BSDecalPlacementVectorExtraData" inherit="NiFloatExtraData" module="BSMain" versions="#FO3_AND_LATER#">
+    <niobject name="BSDecalPlacementVectorExtraData" inherit="NiIntegerExtraData" module="BSMain" versions="#FO3_AND_LATER#">
         Bethesda-specific extra data. Lists locations and normals on a mesh that are appropriate for decal placement.
         <field name="Num Vector Blocks" type="ushort" />
         <field name="Vector Blocks" type="DecalVectorArray" length="Num Vector Blocks" />
