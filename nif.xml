@@ -406,10 +406,10 @@
     <enum name="KeyType" storage="uint">
         The type of animation interpolation (blending) that will be used on the associated key frames.
         <option value="1" name="LINEAR_KEY">Use linear interpolation.</option>
-        <option value="2" name="QUADRATIC_KEY">Use quadratic interpolation.  Forward and back tangents will be stored.</option>
-        <option value="3" name="TBC_KEY">Use Tension Bias Continuity interpolation.  Tension, bias, and continuity will be stored.</option>
-        <option value="4" name="XYZ_ROTATION_KEY">For use only with rotation data.  Separate X, Y, and Z keys will be stored instead of using quaternions.</option>
-        <option value="5" name="CONST_KEY">Step function. Used for visibility keys in NiBoolData.</option>
+        <option value="2" name="QUADRATIC_KEY">Use Hermite interpolation. Forward and back tangents will be stored.</option>
+        <option value="3" name="TBC_KEY">Use Tension Bias Continuity interpolation. Tension, bias, and continuity will be stored.</option>
+        <option value="4" name="XYZ_ROTATION_KEY">For use only with rotation data. Separate X, Y, and Z keys will be stored instead of using quaternions.</option>
+        <option value="5" name="CONST_KEY">No interpolation between keys. Used for visibility keys in NiBoolData.</option>
     </enum>
 
     <enum name="OblivionHavokMaterial" storage="uint" versions="#BETHESDA#">
@@ -4724,10 +4724,10 @@
     </niobject>
 
     <niobject name="NiPointLight" inherit="NiLight" module="NiMain">
-        A point light.
-        <field name="Constant Attenuation" type="float" />
-        <field name="Linear Attenuation" type="float" default="1.0" />
-        <field name="Quadratic Attenuation" type="float" />
+        A point light. Bethesda uses the Attenuation values to adjust light flicker at runtime and are unused.
+        <field name="Constant Attenuation" type="float"> How much the light is unaffected by distance from the light source's origin.</field>
+        <field name="Linear Attenuation" type="float" default="1.0"> How much the light fades at a fixed rate from the light source's origin.</field>
+        <field name="Quadratic Attenuation" type="float"> How much the light fades exponentially from the light source's origin.</field>
     </niobject>
 
     <niobject name="NiPosData" inherit="NiObject" module="NiAnimation">
@@ -4812,7 +4812,7 @@
         <field name="Force Type" type="ForceType">The type of gravitational force.</field>
         <field name="Turbulence" type="float">Adds a degree of randomness.</field>
         <field name="Turbulence Scale" type="float" default="1.0">Scale for turbulence.</field>
-        <field name="World Aligned" type="bool" vercond="!#NI_BS_LTE_16#" />
+        <field name="World Aligned" type="bool" vercond="!#NI_BS_LTE_16#"> Multiplies the rotation of the Gravity Object node by the Gravity Axis value.</field>
     </niobject>
 
     <niobject name="NiPSysGrowFadeModifier" inherit="NiPSysModifier" module="NiParticle">
@@ -6850,8 +6850,8 @@
 
     <niobject name="BSRangeNode" inherit="NiNode" module="BSMain" versions="#FO3_AND_LATER#">
         Bethesda-Specific node. Defines a range of Destruction Stages and activates when a reference reaches one of the defined values.
-        <field name="Min" type="byte" />
-        <field name="Max" type="byte" />
+        <field name="Min" type="byte"> The minimum Destruction Stage for this node to be unhidden.</field>
+        <field name="Max" type="byte"> The maximum Destruction Stage for this node to be unhidden.</field>
         <field name="Current" type="byte" />
     </niobject>
 
@@ -7056,7 +7056,10 @@
     </niobject>
 
     <niobject name="BSFrustumFOVController" inherit="NiFloatInterpController" module="BSAnimation" versions="#BETHESDA#">
-        Bethesda-specific time controller. Used to animate the frustum value on NiCameras.
+        Bethesda-specific time controller. Used to animate the frustum values on NiCameras.
+        Adds and subtracts the interpolated value to Left and Right Frustum respectively,
+        and multiplies 75% of the value of Top Frustum with the interpolated value,
+        and multiplies the interpolated value with 25% of the value of Bottom Frustum.
     </niobject>
 
     <niobject name="BSDebrisNode" inherit="BSRangeNode" module="BSMain" versions="#FO3_AND_LATER#">
