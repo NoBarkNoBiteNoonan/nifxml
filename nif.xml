@@ -185,7 +185,7 @@
     <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
     <version id="V4_2_1_0" num="4.2.1.0" ext="ucf opt">Dark Age of Camelot, Civilization IV, Knight Rider, Futurama</version>
     <version id="V4_2_2_0" num="4.2.2.0">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II</version>
-    <version id="V10_0_1_0" num="10.0.1.0">{{Zoo Tycoon 2}}, Civilization IV, Oblivion, IHRA Drag Racing Sportsman Edition</version>
+    <version id="V10_0_1_0" num="10.0.1.0" ext="nimd nisl nian">{{Zoo Tycoon 2}}, Civilization IV, Oblivion, IHRA Drag Racing Sportsman Edition, Playboy: The Mansion</version>
     <version id="V10_0_1_2" num="10.0.1.2" bsver="1 3">Oblivion</version>
     <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam, Stacked with Daniel Negreanu, Ski-Doo Snowmobile Challenge</version>
     <version id="V10_1_0_101" num="10.1.0.101" user="10" bsver="4">Oblivion</version>
@@ -231,6 +231,7 @@
     <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain, El Shaddai</version>
     <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai</version>
     <version id="V20_6_0_2" num="20.6.0.2">{{MXM}}</version>
+    <version id="V20_6_1_0" num="20.6.1.0">Start the Party!
     <version id="V20_6_5_0" num="20.6.5.0" user="0" supported="false">Epic Mickey</version>
     <version id="V20_6_5_0_DEM" num="20.6.5.0" user="14 15" ext="nif_wii" >Epic Mickey</version>
     <version id="V20_6_5_0_DEM2" num="20.6.5.0" user="17">Epic Mickey 2</version>
