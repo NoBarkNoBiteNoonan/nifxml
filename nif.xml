@@ -172,14 +172,15 @@
             Note: A unique game name should only have `{{}}` around it once.
     -->
 
-    <version id="V2_3" num="2.3" supported="false">Dark Age of Camelot</version>
+    <version id="V2_27" num="2.27" supported="false">Prince of Persia 3D</version>
+    <version id="V2_3" num="2.3" supported="false">Dark Age of Camelot, {{Prince of Persia 3D}}, Wild Wild West: The Steel Assassin</version>
     <version id="V3_0" num="3.0" supported="false">Star Trek: Bridge Commander</version>
     <version id="V3_03" num="3.03" supported="false">Dark Age of Camelot</version>
     <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander, Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.11" supported="false">Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
     <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider</version>
-    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, Tetris Worlds, Futurama</version>
+    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, {{Tetris Worlds}}, Futurama</version>
     <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003, Knight Rider</version>
     <version id="V4_1_0_13" num="4.1.0.13">Futurama</version>
     <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
@@ -219,6 +220,7 @@
     <version id="V20_2_0_7_F76" num="20.2.0.7" user="12" bsver="155" ext="bto">{{Fallout 76}}</version>
     <version id="V20_2_0_7_STF" num="20.2.0.7" user="12" bsver="172">{{Starfield}}</version>
     <version id="V20_2_0_8" num="20.2.0.8" ext="nifcache mpk">{{Empire Earth III}}, {{FFT Online}}, Atlantica Online, IRIS Online, Wizard101, Lego Universe Way of the Samurai 3</version>
+    <version id="V20_2_1_7" num="20.2.1.7">Looney Tunes Acme Arsenal</version>
     <version id="V20_2_4_7" num="20.2.4.7">QQSpeed</version>
     <version id="V20_3_0_1" num="20.3.0.1">Emerge</version>
     <version id="V20_3_0_2" num="20.3.0.2">Emerge</version>
@@ -229,17 +231,17 @@
     <version id ="V20_3_1_1" num="20.3.1.1">Fantasy Frontier, Aura Kingdom</version>
     <version id ="V20_3_1_2" num="20.3.1.2">{{Fantasy Frontier}}, {{Aura Kingdom}}</version>
     <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain, El Shaddai, Kung-Fu Live, World Gone Sour</version>
-    <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai, Kung-Fu Live, Slam Bolt Scrappers</version>
+    <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai, Kung-Fu Live, Slam Bolt Scrappers, Dance on Broadway (Wii)</version>
     <version id="V20_6_0_2" num="20.6.0.2">{{MXM}}</version>
-    <version id="V20_6_1_0" num="20.6.1.0">Start the Party!</version>
+    <version id="V20_6_1_0" num="20.6.1.0">{{Start the Party!}}</version>
     <version id="V20_6_5_0" num="20.6.5.0" user="0" supported="false">Epic Mickey</version>
     <version id="V20_6_5_0_DEM" num="20.6.5.0" user="14 15" ext="nif_wii" >Epic Mickey</version>
     <version id="V20_6_5_0_DEM2" num="20.6.5.0" user="17">Epic Mickey 2</version>
-    <version id="V30_0_0_2" num="30.0.0.2" ext="mpk">Emerge, Gladiator VS, Kung-Fu Live, World Gone Sour</version>
+    <version id="V30_0_0_2" num="30.0.0.2" ext="mpk">Emerge, Gladiator VS, Kung-Fu Live, World Gone Sour, The Unfinished Swan (PS3), Dance on Broadway (Wii)</version>
     <version id="V30_1_0_1" num="30.1.0.1">Emerge, World Gone Sour</version>
-    <version id="V30_1_0_2" num="30.1.0.2">Kung-Fu Live</version>
-    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014, Way of the Samurai 4, Gladiator VS, Kung-Fu Live, World Gone Sour</version>
-    <version id="V30_2_0_3" num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2</version>
+    <version id="V30_1_0_2" num="30.1.0.2">Kung-Fu Live, The Unfinished Swan (PS3), {{Dance on Broadway (Wii)}}, Yar's Revenge</version>
+    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014, Way of the Samurai 4, Gladiator VS, Kung-Fu Live, World Gone Sour, {{Dance on Broadway (PS3)}}, {{The Unfinished Swan (PS3)}}, Yar's Revenge</version>
+    <version id="V30_2_0_3" num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2, {{Yar's Revenge}}</version>
 
     <!-- BSMain = 0x1fff384d000 -->
     <module name="NiMain" priority="0" />
