@@ -220,7 +220,8 @@
     <version id="V20_2_0_7_F76" num="20.2.0.7" user="12" bsver="155" ext="bto">{{Fallout 76}}</version>
     <version id="V20_2_0_7_STF" num="20.2.0.7" user="12" bsver="172">{{Starfield}}</version>
     <version id="V20_2_0_8" num="20.2.0.8" ext="nifcache mpk">{{Empire Earth III}}, {{FFT Online}}, Atlantica Online, IRIS Online, Wizard101, Lego Universe Way of the Samurai 3</version>
-    <version id="V20_2_1_7" num="20.2.1.7">Looney Tunes Acme Arsenal</version>
+    <version id="V20_2_1_7" num="20.2.1.7">{{Looney Tunes Acme Arsenal}}</version>
+    <version id="V20_2_2_7" num="20.2.2.7">{{Space Chimps}}</version>
     <version id="V20_2_4_7" num="20.2.4.7">QQSpeed</version>
     <version id="V20_3_0_1" num="20.3.0.1">Emerge</version>
     <version id="V20_3_0_2" num="20.3.0.2">Emerge</version>
