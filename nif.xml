@@ -6774,14 +6774,14 @@
     </niobject>
 
     <niobject name="BSPSysSimpleColorModifier" inherit="NiPSysModifier" module="BSParticle" versions="#FO3_AND_LATER#">
-        Bethesda-specific particle modifier.
-        <field name="Fade In Percent" type="float" default="0.1" range="#F0_1#" />
-        <field name="Fade Out Percent" type="float" default="0.9" range="#F0_1#" />
-        <field name="Color 1 End Percent" type="float" range="#F0_1#" />
-        <field name="Color 1 Start Percent" type="float" range="#F0_1#" />
-        <field name="Color 2 End Percent" type="float" range="#F0_1#" />
-        <field name="Color 2 Start Percent" type="float" default="1.0" range="#F0_1#" />
-        <field name="Colors" type="Color4" length="3" />
+        Bethesda-specific particle modifier. Changes the colors of particles by blending three ranges of colors together over the lifespan of the particle.
+        <field name="Fade In Percent" type="float" default="0.1" range="#F0_1#"/>When the color 1 alpha starts fading into color 2 alpha.</field>
+        <field name="Fade Out Percent" type="float" default="0.9" range="#F0_1#"/>When color 2 alpha starts fading into color 3 alpha.</field>
+        <field name="Color 1 End Percent" type="float" range="#F0_1#"/>When color 1 starts fading into color 2.</field>
+        <field name="Color 2 Start Percent" type="float" range="#F0_1#"/>When color 2 reaches its full value.</field>
+        <field name="Color 2 End Percent" type="float" range="#F0_1#"/>When color 2 starts fading into color 3.</field>
+        <field name="Color 3 Start Percent" type="float" default="1.0" range="#F0_1#"/>When color 3 reaches its full value.</field>
+        <field name="Colors" type="Color4" length="3"/>Defines the RGBA values of color 1, color 2, and color 3.</field>
         <field name="Unknown Shorts" type="ushort" length="26" vercond="#BS_GTE_F76#" />
     </niobject>
 
