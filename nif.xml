@@ -231,17 +231,17 @@
     <version id="V20_3_0_9_DIV2" num="20.3.0.9" user="0x20000 0x30000" ext="item cat">{{Divinity 2}}</version>
     <version id ="V20_3_1_1" num="20.3.1.1">Fantasy Frontier, Aura Kingdom</version>
     <version id ="V20_3_1_2" num="20.3.1.2">{{Fantasy Frontier}}, {{Aura Kingdom}}</version>
-    <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain, El Shaddai, Kung-Fu Live, World Gone Sour</version>
+    <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain, El Shaddai, Kung-Fu Live, World Gone Sour, PowerUp Heroes</version>
     <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai, Kung-Fu Live, Slam Bolt Scrappers, Dance on Broadway (Wii)</version>
     <version id="V20_6_0_2" num="20.6.0.2">{{MXM}}</version>
     <version id="V20_6_1_0" num="20.6.1.0">{{Start the Party!}}</version>
     <version id="V20_6_5_0" num="20.6.5.0" user="0" supported="false">Epic Mickey</version>
     <version id="V20_6_5_0_DEM" num="20.6.5.0" user="14 15" ext="nif_wii" >Epic Mickey</version>
     <version id="V20_6_5_0_DEM2" num="20.6.5.0" user="17">Epic Mickey 2</version>
-    <version id="V30_0_0_2" num="30.0.0.2" ext="mpk">Emerge, Gladiator VS, Kung-Fu Live, World Gone Sour, The Unfinished Swan (PS3), Dance on Broadway (Wii)</version>
+    <version id="V30_0_0_2" num="30.0.0.2" ext="mpk">Emerge, Gladiator VS, Kung-Fu Live, World Gone Sour, The Unfinished Swan (PS3), Dance on Broadway (Wii), PowerUp Heroes</version>
     <version id="V30_1_0_1" num="30.1.0.1">Emerge, World Gone Sour</version>
-    <version id="V30_1_0_2" num="30.1.0.2">Kung-Fu Live, The Unfinished Swan (PS3), {{Dance on Broadway (Wii)}}, Yar's Revenge</version>
-    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014, Way of the Samurai 4, Gladiator VS, Kung-Fu Live, World Gone Sour, {{Dance on Broadway (PS3)}}, {{The Unfinished Swan (PS3)}}, Yar's Revenge</version>
+    <version id="V30_1_0_2" num="30.1.0.2">Kung-Fu Live, The Unfinished Swan (PS3), {{Dance on Broadway (Wii)}}, Yar's Revenge, PowerUp Heroes</version>
+    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014, Way of the Samurai 4, Gladiator VS, Kung-Fu Live, World Gone Sour, {{Dance on Broadway (PS3)}}, {{The Unfinished Swan (PS3)}}, Yar's Revenge, {{PowerUp Heroes}}</version>
     <version id="V30_2_0_3" num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2, {{Yar's Revenge}}</version>
 
     <!-- BSMain = 0x1fff384d000 -->
