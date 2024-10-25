@@ -179,19 +179,19 @@
     <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander, Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.11" supported="false">Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
-    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider</version>
-    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, {{Tetris Worlds}}, Futurama</version>
+    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider, London Racer: Police Madness</version>
+    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, {{Tetris Worlds}}, Futurama, London Racer: Police Madness</version>
     <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003, Knight Rider</version>
     <version id="V4_1_0_13" num="4.1.0.13">Futurama</version>
     <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
-    <version id="V4_2_1_0" num="4.2.1.0" ext="ucf opt">Dark Age of Camelot, Civilization IV, Knight Rider, Futurama</version>
-    <version id="V4_2_2_0" num="4.2.2.0">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II</version>
+    <version id="V4_2_1_0" num="4.2.1.0" ext="ucf opt">Dark Age of Camelot, Civilization IV, Knight Rider, Futurama, {{Autobahn Raser IV}}, {{Knight Rider 2}}, {{London Racer: Police Madness}}</version>
+    <version id="V4_2_2_0" num="4.2.2.0" ext="opt">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II, London Racer: Police Madness</version>
     <version id="V10_0_1_0" num="10.0.1.0" ext="nimd nisl nian">{{Zoo Tycoon 2}}, Civilization IV, Oblivion, IHRA Drag Racing Sportsman Edition, Playboy: The Mansion</version>
     <version id="V10_0_1_2" num="10.0.1.2" bsver="1 3">Oblivion</version>
     <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam, Stacked with Daniel Negreanu, Ski-Doo Snowmobile Challenge</version>
     <version id="V10_1_0_101" num="10.1.0.101" user="10" bsver="4">Oblivion</version>
     <version id="V10_1_0_106" num="10.1.0.106" user="10" bsver="5">Oblivion</version>
-    <version id="V10_2_0_0" num="10.2.0.0" user="0" ext="wtf blb">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu, Ski-Doo Snowmobile Challenge</version>
+    <version id="V10_2_0_0" num="10.2.0.0" user="0" ext="wtf blb">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki, Stacked with Daniel Negreanu, Ski-Doo Snowmobile Challenge, {{Fetch!}}</version>
     <version id="V10_2_0_0__1" num="10.2.0.0" user="1">{{Blood Bowl}}</version>
     <version id="V10_2_0_0__10" num="10.2.0.0" user="10" bsver="6 7 8 9 11">Oblivion</version>
     <version id="V10_2_0_1" num="10.2.0.1" custom="true">WorldShift</version>
@@ -6799,16 +6799,16 @@
 
 
     <niobject name="BSStripParticleSystem" inherit="NiParticleSystem" module="BSParticle" versions="#FO3_AND_LATER#">
-        Bethesda-Specific (mesh?) Particle System.
+        Bethesda-Specific Particle System. A clone of NiParticleSystem that creates particles with multiple points.
     </niobject>
 
 
     <niobject name="BSStripPSysData" inherit="NiPSysData" module="BSParticle" versions="#FO3_AND_LATER#">
-        Bethesda-Specific (mesh?) Particle System Data.
-        <field name="Max Point Count" type="ushort" />
-        <field name="Start Cap Size" type="float" />
-        <field name="End Cap Size" type="float" />
-        <field name="Do Z Prepass" type="bool" />
+        Bethesda-Specific Particle System Data.
+        <field name="Max Point Count" type="ushort"/>Determines the maximum amount of points the mesh has.</field>
+        <field name="Start Cap Size" type="float"/>Unused in Fallout 3/New Vegas.</field>
+        <field name="End Cap Size" type="float"/>Unused in Fallout 3/New Vegas.</field>
+        <field name="Do Z Prepass" type="bool"/>Unused in Fallout 3/New Vegas.</field>
     </niobject>
 
 
@@ -6825,7 +6825,8 @@
 
 
     <niobject name="BSMasterParticleSystem" inherit="NiNode" module="BSParticle" versions="#FO3_AND_LATER#">
-        Bethesda-Specific particle system.
+        Bethesda-Specific particle system. 
+        Required for AddOn Node forms and determines the maximum amount of cloned particle systems created by associated BSPSysMultiTargetEmitterCtlrs.
         <field name="Max Emitter Objects" type="ushort" default="20" />
         <field name="Num Particle Systems" type="uint" />
         <field name="Particle Systems" type="Ref" template="NiAVObject" length="Num Particle Systems" />
@@ -6834,8 +6835,8 @@
 
 
     <niobject name="BSPSysMultiTargetEmitterCtlr" inherit="NiPSysEmitterCtlr" module="BSParticle" versions="#FO3_AND_LATER#">
-        Particle system (multi?) emitter controller.
-        <field name="Max Emitters" type="ushort" />
+        Particle system emitter controller. Clones the particle system it's attached to.
+        <field name="Max Emitters" type="ushort"/>The maximum amount of clones it can make.</field>
         <field name="Master Particle System" type="Ptr" template="BSMasterParticleSystem" />
     </niobject>
 
