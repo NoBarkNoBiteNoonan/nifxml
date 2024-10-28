@@ -179,12 +179,12 @@
     <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander, Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.11" supported="false">Tetris Worlds</version>
     <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
-    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider, London Racer: Police Madness</version>
-    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}, Knight Rider, {{Tetris Worlds}}, Futurama, London Racer: Police Madness</version>
-    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003, Knight Rider</version>
+    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force, Tetris Worlds, Knight Rider, London Racer: Police Madness, {{Call of Cthulhu: Dark Corners of the Earth}}</version>
+    <version id="V4_0_0_2" num="4.0.0.2" ext="nil">{{Morrowind}}, {{Freedom Force}}, Knight Rider, {{Tetris Worlds}}, Futurama, London Racer: Police Madness, {{Ben Hur: Blood of Braves}}</version>
+    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot, Tennis Masters Series 2003, Knight Rider, Grooverider, {{Knight's Apprentice: Memorick's Adventures}}</version>
     <version id="V4_1_0_13" num="4.1.0.13">Futurama</version>
     <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
-    <version id="V4_2_1_0" num="4.2.1.0" ext="ucf opt">Dark Age of Camelot, Civilization IV, Knight Rider, Futurama, {{Autobahn Raser IV}}, {{Knight Rider 2}}, {{London Racer: Police Madness}}</version>
+    <version id="V4_2_1_0" num="4.2.1.0" ext="ucf opt">Dark Age of Camelot, Civilization IV, Knight Rider, Futurama, {{Autobahn Raser IV}}, {{Knight Rider 2}}, {{London Racer: Police Madness}}, {{Grooverider}}</version>
     <version id="V4_2_2_0" num="4.2.2.0" ext="opt">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II, London Racer: Police Madness</version>
     <version id="V10_0_1_0" num="10.0.1.0" ext="nimd nisl nian">{{Zoo Tycoon 2}}, Civilization IV, Oblivion, IHRA Drag Racing Sportsman Edition, {{Playboy: The Mansion}}</version>
     <version id="V10_0_1_2" num="10.0.1.2" bsver="1 3">Oblivion</version>
@@ -221,7 +221,7 @@
     <version id="V20_2_0_7_STF" num="20.2.0.7" user="12" bsver="172">{{Starfield}}</version>
     <version id="V20_2_0_8" num="20.2.0.8" ext="nifcache mpk">{{Empire Earth III}}, {{FFT Online}}, Atlantica Online, IRIS Online, Wizard101, Lego Universe, Way of the Samurai 3 (testscene2.mpk, tati01_tuka.green.nif)</version>
     <version id="V20_2_1_7" num="20.2.1.7">{{Looney Tunes Acme Arsenal}}</version>
-    <version id="V20_2_2_7" num="20.2.2.7">{{Space Chimps}}</version>
+    <version id="V20_2_2_7" num="20.2.2.7">{{Space Chimps}}, {{Jumper: Griffin's Story}}</version>
     <version id="V20_2_4_7" num="20.2.4.7">QQSpeed</version>
     <version id="V20_3_0_1" num="20.3.0.1">Emerge</version>
     <version id="V20_3_0_2" num="20.3.0.2">Emerge</version>
@@ -234,7 +234,7 @@
     <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain, El Shaddai, Kung-Fu Live, World Gone Sour, PowerUp Heroes</version>
     <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101, Archlord 2, El Shaddai, Kung-Fu Live, Slam Bolt Scrappers, Dance on Broadway (Wii), {{Catherine}}</version>
     <version id="V20_6_0_2" num="20.6.0.2">{{MXM}}</version>
-    <version id="V20_6_1_0" num="20.6.1.0">{{Start the Party!}}</version>
+    <version id="V20_6_1_0" num="20.6.1.0">{{Start the Party!}}, {{Tumble}}</version>
     <version id="V20_6_5_0" num="20.6.5.0" user="0" supported="false">Epic Mickey</version>
     <version id="V20_6_5_0_DEM" num="20.6.5.0" user="14 15" ext="nif_wii" >Epic Mickey</version>
     <version id="V20_6_5_0_DEM2" num="20.6.5.0" user="17">Epic Mickey 2</version>
