@@ -664,6 +664,22 @@
         <option value="3974071006" name="SKY_HAV_MAT_UNKNOWN_3974071006" />
         <option value="3941234649" name="SKY_HAV_MAT_UNKNOWN_3941234649">tfxsteelswordbloody</option>
         <option value="1820198263" name="SKY_HAV_MAT_UNKNOWN_1820198263">steelgreatsword</option>
+	<option value="165778930" name="SKY_HAV_MAT_MATERIAL_BLOCK_BLADE_1HAND">Material Block Blade 1 Hand</option>
+	<option value="220124585" name="SKY_HAV_MAT_MATERIAL_MEAT">Material Meat</option>
+	<option value="534864873" name="SKY_HAV_MAT_MATERIAL_ASH">Material Ash</option>
+	<option value="593401068" name="SKY_HAV_MAT_MATERIAL_BLOCK_BLUNT">Material Block Blunt</option>
+	<option value="668408902" name="SKY_HAV_MAT_INSECT">Insect</option>
+	<option value="1312943906" name="SKY_HAV_MAT_MATERIAL_BLOCK_BLADE_2HAND">Material Block Blade 2Hand</option>
+	<option value="1322093133" name="SKY_HAV_MAT_ORGANIC_LARGE">Organic Large</option>
+	<option value="1730220269" name="SKY_HAV_MAT_ALDUIN">Alduin</option>
+	<option value="1763418903" name="SKY_HAV_MAT_MATERIAL_BLOCK_BOWS_STAVES">Material Block Bows Staves</option>
+	<option value="2058949504" name="SKY_HAV_MAT_BONE_ACTOR">Bone Actor</option>
+	<option value="2431524493" name="SKY_HAV_MAT_MATERIAL_ICE_FORM">Material Ice Form</option>
+	<option value="2821299363" name="SKY_HAV_MAT_MATERIAL_SKIN_SKELETON">Material Skin Skeleton</option>
+	<option value="2872791301" name="SKY_HAV_MAT_MATERIAL_BLUNT_1HAND">Material Blunt 1 Hand</option>
+	<option value="3312543676" name="SKY_HAV_MAT_GHOST">Ghost</option>
+	<option value="3400476823" name="SKY_HAV_MAT_MATERIAL_BLOCK_AXE">Material Block Axe</option>
+	<option value="3662306947" name="SKY_HAV_MAT_MATERIAL_BLOCK_BLUNT_2HAND">Material Block Blunt 2Hand</option>
     </enum>
 
     <enum name="OblivionLayer" storage="byte" versions="#BETHESDA#">
