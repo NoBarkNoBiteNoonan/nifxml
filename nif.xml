@@ -7510,13 +7510,13 @@
 
     <niobject name="BSPSysSimpleColorModifier" inherit="NiPSysModifier" module="BSParticle" versions="#FO3_AND_LATER#">
         Bethesda-specific particle modifier. Changes the colors of particles by blending three ranges of colors together over the lifespan of the particle.
-        <field name="Fade In Percent" type="float" default="0.1" range="#F0_1#"/>When the color 1 alpha starts fading into color 2 alpha.</field>
-        <field name="Fade Out Percent" type="float" default="0.9" range="#F0_1#"/>When color 2 alpha starts fading into color 3 alpha.</field>
-        <field name="Color 1 End Percent" type="float" range="#F0_1#"/>When color 1 starts fading into color 2.</field>
-        <field name="Color 2 Start Percent" type="float" range="#F0_1#"/>When color 2 reaches its full value.</field>
-        <field name="Color 2 End Percent" type="float" range="#F0_1#"/>When color 2 starts fading into color 3.</field>
-        <field name="Color 3 Start Percent" type="float" default="1.0" range="#F0_1#"/>When color 3 reaches its full value.</field>
-        <field name="Colors" type="Color4" length="3"/>Defines the RGBA values of color 1, color 2, and color 3.</field>
+        <field name="Fade In Percent" type="float" default="0.1" range="#F0_1#">When the color 1 alpha starts fading into color 2 alpha.</field>
+        <field name="Fade Out Percent" type="float" default="0.9" range="#F0_1#">When color 2 alpha starts fading into color 3 alpha.</field>
+        <field name="Color 1 End Percent" type="float" range="#F0_1#">When color 1 starts fading into color 2.</field>
+        <field name="Color 2 Start Percent" type="float" range="#F0_1#">When color 2 reaches its full value.</field>
+        <field name="Color 2 End Percent" type="float" range="#F0_1#">When color 2 starts fading into color 3.</field>
+        <field name="Color 3 Start Percent" type="float" default="1.0" range="#F0_1#">When color 3 reaches its full value.</field>
+        <field name="Colors" type="Color4" length="3">Defines the RGBA values of color 1, color 2, and color 3.</field>
         <field name="Unknown Shorts" type="ushort" length="26" vercond="#BS_GTE_F76#" />
     </niobject>
 
@@ -7541,10 +7541,10 @@
 
     <niobject name="BSStripPSysData" inherit="NiPSysData" module="BSParticle" versions="#FO3_AND_LATER#">
         Bethesda-Specific Particle System Data.
-        <field name="Max Point Count" type="ushort"/>Determines the maximum amount of points the mesh has.</field>
-        <field name="Start Cap Size" type="float"/>Unused in Fallout 3/New Vegas.</field>
-        <field name="End Cap Size" type="float"/>Unused in Fallout 3/New Vegas.</field>
-        <field name="Do Z Prepass" type="bool"/>Unused in Fallout 3/New Vegas.</field>
+        <field name="Max Point Count" type="ushort">Determines the maximum amount of points the mesh has.</field>
+        <field name="Start Cap Size" type="float">Unused in Fallout 3/New Vegas.</field>
+        <field name="End Cap Size" type="float">Unused in Fallout 3/New Vegas.</field>
+        <field name="Do Z Prepass" type="bool">Unused in Fallout 3/New Vegas.</field>
     </niobject>
 
 
@@ -7572,7 +7572,7 @@
 
     <niobject name="BSPSysMultiTargetEmitterCtlr" inherit="NiPSysEmitterCtlr" module="BSParticle" versions="#FO3_AND_LATER#">
         Particle system emitter controller. Clones the particle system it's attached to.
-        <field name="Max Emitters" type="ushort"/>The maximum amount of clones it can make.</field>
+        <field name="Max Emitters" type="ushort">The maximum amount of clones it can make.</field>
         <field name="Master Particle System" type="Ptr" template="BSMasterParticleSystem" />
     </niobject>
 
@@ -8887,10 +8887,6 @@
         <field name="Refs" type="Ref" template="NiObject" length="Num Refs" />
     </niobject>
 
-    <niobject name="JPSJigsawNode" inherit="NiNode" module="NiMesh" >
-        Epic Mickey specific block.
-    </niobject>
-
     <niobject name="bhkCompressedMeshShape" inherit="bhkShape" module="BSHavok" versions="#SKY_AND_LATER#">
         Compressed collision mesh.
         <field name="Target" type="Ptr" template="NiAVObject">Points to root node?</field>
@@ -9521,9 +9517,6 @@
     	</niobject>
     
     	<niobject name="WeaponObject" abstract="0" inherit="bhkBlendCollisionObject">
-    	</niobject>
-
-	<niobject name="BSFaceGenNiNode" abstract="0" inherit="NiNode">
     	</niobject>
 
     	<niobject name="BSMultiTargetTreadTransfController" inherit="NiInterpController">
